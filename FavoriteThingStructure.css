@@ -6,9 +6,30 @@
 
 
 body {
-
+    font-family: sans-serif, serif, monospace;
 }
 
 header {background-color: aliceblue;}
 main {background-color: floralwhite;}
-footer {background-color: aliceblue}
+footer {background-color: aliceblue;}
+h1 {background-color: antiquewhite;}
+
+h1 {
+    text-decoration: underline;
+    font-size: 150%;
+    text-align: center;
+}
+
+figure {float: left;}
+#nofloat {clear: both;}
+
+a:"https://www.catster.com/lifestyle/facts-about-tuxedo-cats" {
+    background-color: currentColor;
+    color:cornflowerblue;
+}
+
+a:hover, a:focus {
+    background-color: cornflowerblue;
+    color:currentColor;
+    font-size: 150%;
+}
